@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="title">Anime</h1>
+    <p id="description">
+        Tell about anime you like.
+    </p>
+    <form id="survey-form">
+
+        <label for="" id="name-label"><br>
+            Name :
+        </label>
+        <input type="text" id="name" required="true" placeholder="Name"><br/>
+
+        <label for="" id="email-label"><br>
+            e-mail :
+        </label>
+        <input type="email" id="email" required="true" placeholder="e-mail"><br/>
+
+        <label for="" id="number-label"><br>
+            No. :
+        </label>
+        <input type="number" id="number" min="6000000000" max="9999999999" required="true" placeholder="Ph-No."><br/><br>
+
+        <label for="">Types</label>
+        <select name="Anime-types" id="dropdown">
+            <option value="shonen">shonen</option>
+            <option value="shojo">shojo</option>
+            <option value="seinen">seinen</option>
+            <option value="josei">josei</option>
+            <option value="kodomomuke">kodomomuke</option>
+        </select><br/><br>
+
+        <label for="">Vote Your Fav Shonen : </label> <br>
+        <input type="radio" name="shonen" value="NARUTO & NARUTO SHIPPUDEN">NARUTO & NARUTO SHIPPUDEN <br/>
+        <input type="radio" name="shonen" value="Attack on Titan">Attack on Titan <br/>
+        <input type="radio" name="shonen" value="Black Clover">Black Clover <br/>
+        <input type="radio" name="shonen" value=Bleach">Bleach <br/>
+        <input type="radio" name="shonen" value="Dragon Ball Series">Dragon Ball Series <br/><br>
+        
+        <label for="">Select Your Fav Wholesome anime : </label><br>
+        <input type="checkbox" name="anime1" value="Your Name"> Kimi no Na wa. (Your Name) <br>
+        <input type="checkbox" name="anime1" value="I Can’t Understand What My Husband Is Saying"> I Can’t Understand What My Husband Is Saying <br>
+        <input type="checkbox" name="anime1" value="School Babysitters"> Gakuen Babysitters (School Babysitters) <br>
+        <input type="checkbox" name="anime1" value="Love, Chunibyo & Other Delusions"> Love, Chunibyo & Other Delusions <br>
+        <input type="checkbox" name="anime1" value="Barakamon"> Barakamon <br><br>
+        
+        <textarea name="" id="" cols="30" rows="2" placeholder="suggest me a sauce!"></textarea> <br>
+        <button id="submit">Submit</button>
+    </form>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
